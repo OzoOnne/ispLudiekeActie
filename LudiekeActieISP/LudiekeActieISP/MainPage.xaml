@@ -44,7 +44,7 @@
                        FontAttributes="Bold"
                        HorizontalOptions="Center" />
 
-                <Label Text="{Binding BedragPerKm}"
+                <Label Text="{Binding BedragPerKm, StringFormat='€ {0:F2}'}"
                        FontSize="30"
                        TextColor="White"
                        FontAttributes="Bold"
@@ -65,7 +65,7 @@
                        FontAttributes="Bold"
                        HorizontalOptions="Center" />
 
-                <Label Text="{Binding TotaalGedoneerd}"
+                <Label Text="{Binding TotaalGedoneerd, StringFormat='€ {0:N2}'}"
                        FontSize="30"
                        TextColor="White"
                        FontAttributes="Bold"
