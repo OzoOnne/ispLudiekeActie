@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36623.8
+# Visual Studio Version 18
+VisualStudioVersion = 18.1.11304.174 d18.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LudiekeActieISP", "LudiekeActieISP\LudiekeActieISP.csproj", "{CBE3C9F5-298E-4BFC-BA82-DD218E605B6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{8C823C04-518D-7F5D-DC1B-2C502C583C95}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{DA91558A-E6A5-4E96-BC42-AA678F6D94AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +23,10 @@ Global
 		{8C823C04-518D-7F5D-DC1B-2C502C583C95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C823C04-518D-7F5D-DC1B-2C502C583C95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C823C04-518D-7F5D-DC1B-2C502C583C95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA91558A-E6A5-4E96-BC42-AA678F6D94AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA91558A-E6A5-4E96-BC42-AA678F6D94AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA91558A-E6A5-4E96-BC42-AA678F6D94AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA91558A-E6A5-4E96-BC42-AA678F6D94AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
