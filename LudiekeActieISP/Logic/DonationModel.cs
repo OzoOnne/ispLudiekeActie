@@ -8,9 +8,9 @@ namespace Logic
 {
     public class DonationModel
     {
-        public bool IsPerKilometerDonation { get; set; }
+        public string Emailadres { get; set; }
+        public string Name { get; set; }
         public decimal PerKilometerAmount { get; set; }
         public decimal MaxAmount { get; set; }
-        public decimal SingleDonationAmount { get; set; }
     }
 }
