@@ -25,6 +25,18 @@ namespace Logic
             _filePath = Path.Combine(AppContext.BaseDirectory, "Resources", "Donaties.csv");
         }
 
+        public decimal GetStaticRatePerKm()
+        {
+            List<DonationModel> donationLines = getDonationLines();
+            decimal rateTotal = 0;
+
+            foreach (DonationModel donation in donationLines)
+            {
+                rateTotal += donation.PerKilometerAmount;
+            }
+            return rateTotal;
+        }
+
         public decimal GetTotalDonations()
         {
             return _dayDonations + GetPerKilometerDonations();
@@ -41,7 +53,8 @@ namespace Logic
         }
         private decimal GetDonationAmount(DonationModel donation)
         {
-            decimal donationAmount = donation.PerKilometerAmount * _kilometers;
+            decimal distance = _kilometers > 0 ? _kilometers : 1;
+            decimal donationAmount = donation.PerKilometerAmount * distance;
             if (donation.MaxAmount == 0)
             {
                 return donationAmount;
